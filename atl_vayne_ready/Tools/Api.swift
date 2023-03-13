@@ -40,7 +40,11 @@ class Api {
         if postData != nil {
             request.httpBody = postData as? Data
         }
-        request.addValue("Bearer " + Global.shared.bearerToken, forHTTPHeaderField: "Authorization")
+
+        let bearerToken = Cipher.shared().aesDe(Global.shared.bearerToken,
+                                               key: "1FEYVFm51gR4vxb4MOK1v15j4t377RjS",
+                                               iv: "Q8BLzNH796Raucgo")
+        request.addValue("Bearer " + bearerToken, forHTTPHeaderField: "Authorization")
 
         let session = URLSession.shared
         let task = session.dataTask(with: request as URLRequest, completionHandler: { data, response, error in

@@ -23,6 +23,7 @@
 		7907C6B529BDDF9300955EC6 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7907C6B429BDDF9300955EC6 /* Api.swift */; };
 		7907C6B729BDE0F200955EC6 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7907C6B629BDE0F200955EC6 /* Macros.swift */; };
 		7907C6B929BE7FB100955EC6 /* ToolBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7907C6B829BE7FB100955EC6 /* ToolBox.swift */; };
+		799E2C7729BF14910040BCF2 /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799E2C7629BF14910040BCF2 /* Cipher.swift */; };
 		79EBD2E929BEFB1F00C5D1C6 /* DetailVCViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79EBD2E829BEFB1F00C5D1C6 /* DetailVCViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		7907C6B429BDDF9300955EC6 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		7907C6B629BDE0F200955EC6 /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
 		7907C6B829BE7FB100955EC6 /* ToolBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBox.swift; sourceTree = "<group>"; };
+		799E2C7629BF14910040BCF2 /* Cipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
 		79EBD2E829BEFB1F00C5D1C6 /* DetailVCViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVCViewModel.swift; sourceTree = "<group>"; };
 		B3153CD2E5B9A05BD643CFC6 /* Pods-atl_vayne_ready.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-atl_vayne_ready.release.xcconfig"; path = "Target Support Files/Pods-atl_vayne_ready/Pods-atl_vayne_ready.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 				7907C6B429BDDF9300955EC6 /* Api.swift */,
 				7907C6B629BDE0F200955EC6 /* Macros.swift */,
 				7907C6B829BE7FB100955EC6 /* ToolBox.swift */,
+				799E2C7629BF14910040BCF2 /* Cipher.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			files = (
 				7907C6B129BDD31C00955EC6 /* DetailVC.swift in Sources */,
 				7907C6AF29BDD31500955EC6 /* ListVC.swift in Sources */,
+				799E2C7729BF14910040BCF2 /* Cipher.swift in Sources */,
 				7907C6B329BDDEDA00955EC6 /* Global.swift in Sources */,
 				790227FD29BEE43400A85037 /* ListCellViewModel.swift in Sources */,
 				79EBD2E929BEFB1F00C5D1C6 /* DetailVCViewModel.swift in Sources */,

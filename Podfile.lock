@@ -1,4 +1,5 @@
 PODS:
+  - CryptoSwift (1.6.0)
   - IQKeyboardManagerSwift (6.5.11)
   - SDWebImage (5.15.2):
     - SDWebImage/Core (= 5.15.2)
@@ -31,6 +32,7 @@ PODS:
   - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - CryptoSwift
   - IQKeyboardManagerSwift (~> 6.5.10)
   - SDWebImage (~> 5.0)
   - SwifterSwift
@@ -38,17 +40,19 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - CryptoSwift
     - IQKeyboardManagerSwift
     - SDWebImage
     - SwifterSwift
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
   IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
   SDWebImage: 8ab87d4b3e5cc4927bd47f78db6ceb0b94442577
   SwifterSwift: 334181863c416882d97b7a60c05054d9e4d799e2
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: e86aaa8aff183ceb50e41a778ebca7d37361fe81
+PODFILE CHECKSUM: 035e919db78cb1e317c9009cac8013555a132d09
 
 COCOAPODS: 1.11.3

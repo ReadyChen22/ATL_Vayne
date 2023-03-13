@@ -8,6 +8,7 @@ def pods
     pod 'SwiftyJSON'
     pod 'SwifterSwift'
     pod 'IQKeyboardManagerSwift', '~> 6.5.10'
+    pod 'CryptoSwift'
 end
 
 target 'atl_vayne_ready' do

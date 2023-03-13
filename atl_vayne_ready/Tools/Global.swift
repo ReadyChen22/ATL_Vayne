@@ -21,5 +21,5 @@ class Global:NSObject {
     }
     
     let apiSvr = "https://api.github.com"
-    let bearerToken = "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"
+    var bearerToken = "DO4ut2Jeu0kWBsluoJ/LPDR3x9ZG031D9RzcoVtVE2TvLLSplNg8F62iHLNXVwBHMMZm8fKOdLaITaOJK/Smln36clloZxNRLk6BnnwT667focHQleKLgrymTuxcnhtt"
 }
